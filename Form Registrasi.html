@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Registrasi Siswa</title>
+</head>
+<body>
+ <body style="text-align:center" bgcolor="#FFE4C4" >
+	<header>
+		<table align="center" width=100%>
+		
+	<main>
+		<table align="center" border="1">
+		<tr class="heading">
+			<td><center><h2><font face="Tahoma">Formulir Pendaftaran Siswa</font></h2></center></td>
+			<td><center><h2><font face="Tahoma">User Pendaftaran Siswa</font></h2></center></td>
+		</tr>
+		<tr>
+			<div class="kiri">
+			<td>
+				<form>
+						<table>
+					<tr>
+						<th><font face="Tahoma">Lengkapi Data Diri Anda Dengan Benar </font></th>
+						<th>!</th>
+					</tr>
+					<br>
+					<tr>
+						<td>Nama</td>
+						<td>:</td>
+						<td><input type="text" name="nama"/></td>
+					</tr>
+					<tr>
+						<td>NIM</td>
+						<td>:</td>
+						<td><input type="text" name="NIM" placeholder="0101010110"/></td>
+					</tr>
+					<tr>
+						<td>Tempat, Tanggal Lahir</td>
+						<td>:</td>
+						<td colspan="2"><input type="text" name="tempat"/></td>
+						<td><input type="date" name="tanggal_lahir"/></td>
+					</tr>
+					<tr>
+						<td>Jenis Kelamin</td>
+						<td>:</td>
+						<td><input type="radio" name="gender"/>Laki - Laki</td>
+						<td></td>
+						<td><input type="radio" name="gender"/>Perempuan</td>
+					</tr>
+					<tr>
+						<td>Agama</td>
+						<td>:</td>
+						<td><input type="text" name="agama"/></td>
+					</tr>
+					<tr>
+						<td>Nomor telephone</td>
+						<td>:</td>
+						<td><input type="text" name="telephone" placeholder="08xxxxxxxxxx"/></td>
+					</tr>
+					<tr>
+						<td>Status</td>
+						<td>:</td>
+						<td><input type="radio" name="status"/>Nikah</td>
+						<td></td>
+						<td><input type="radio" name="status"/>Belum Menikah</td>
+					</tr>
+					<tr>
+						<td>E-mail</td>
+						<td>:</td>
+						<td><input type="E-mail" name="E-mail"/></td>
+					</tr>
+					<tr>
+						<td>Hobi</td>
+						<td>:</td>
+						<td><input type="text" name="Hobi"/></td>
+					</tr>
+					<tr>
+						<td>Kewarganegaraan</td>
+							<td>:</td>
+							<td><select>
+							<option value="Kewarganegaraan">--Pilih--</option>
+							<option value="Kewarganegaraan">Warga Negara Indonesia</option>
+							<option value="Kewarganegaraan">Warga Negara Asing</option>
+						</select></td>
+					</tr>
+                    <tr>
+                    	<td>Alamat</td>
+                        <td>:</td>
+                        <td><textarea name="alamat" rows="4" cols="30"></textarea></td>
+                    </tr>
+					<tr>
+						<td>Keahlian</td>
+						<td>:</td>
+					<td>
+						<input type="checkbox" name="Keahlian"/>Linux<br>
+						<input type="checkbox" name="Keahlian"/>Network<br>
+						<input type="checkbox" name="Keahlian"/>Programing<br>
+						<input type="checkbox" name="Keahlian"/>Design<br>
+						<input type="checkbox" name="Keahlian"/>Server<br>
+						<input type="checkbox" name="Keahlian"/>Foreign Language<br>
+						<input type="checkbox" name="Keahlian"/>Other<input type="text" name="Keahlian"><br>
+					</td>
+					</tr>
+				</table>
+			</form>
+			</td>
+		</div>
+		<div class="kanan">
+			<td>
+				<form>
+					<table>
+						<tr>
+							<th><font face="Tahoma">Masukan Informasi Dengan Benar!</font></th>
+							<td>:</td>
+						</tr>
+						<tr>
+							<td>User id</td>
+							<td>:</td>
+							<td><input type="Text" name="id"></td>
+						</tr>
+						<tr>
+							<td>Password</td>
+							<td>:</td>
+							<td><input type="Password" name="Password"></td>
+						</tr>
+					</table>
+				</form>
+			</td>
+		</div>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<center><button type="Submit">Submit</button></center>
+				<center><button type="reset">Reset</button></center>
+			</td>
+		</tr>
+		</table>
+	</main>
+</body>
+</html>
